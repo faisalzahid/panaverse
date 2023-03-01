@@ -20,7 +20,7 @@ export default function Banner() {
                                 <Button mt='10px' size='lg' colorScheme='teal'>More Info</Button>
                             </Box>
                             <Box mt={{ lg: '-80px', base: '0' }} flexBasis='50%'>
-                                <Image src={logo2} alt="Panaverse" width={{ lg: '700', base: '400' }} height={{ lg: '400', base: '300px' }} />
+                                <Image src={logo2} alt="Panaverse" width='400' height="400" />
                             </Box>
                         </Flex>
                     </Container>
@@ -32,7 +32,7 @@ export default function Banner() {
                     <Flex pt={{ lg: '80px', base: '10px' }} gap={{ lg: '100px', base: '10px' }} display={{ lg: 'flex', base: 'grid' }}>
                         <Box flexBasis='50%'>
                             <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
-                            <Image src={banner} alt='Panaverse Banner' width={{ lg: '700', base: '400' }} height={{ lg: '400', base: '300px' }} />
+                            <Image src={banner} alt='Panaverse Banner' width='400' height="400" />
                             </RevealWrapper>
                         </Box>
                         <Box flexBasis='50%' pt={{ lg: '80px', base: '10px' }} px={{ lg: '0', base: '5px' }}>
@@ -58,7 +58,7 @@ export default function Banner() {
                         </Box>
                         <Box flexBasis='50%'>
                             <RevealWrapper origin='right' delay={200} duration={1000} distance='500px' reset={true}>
-                            <Image src={logo2} alt="Panaverse" width={{ lg: '700', base: '400' }} height={{ lg: '400', base: '300px' }} />
+                            <Image src={logo2} alt="Panaverse" width='400' height="400" />
                             </RevealWrapper>
                         </Box>
                     </Flex>
